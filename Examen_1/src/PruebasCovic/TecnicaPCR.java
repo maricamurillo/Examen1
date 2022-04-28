@@ -3,6 +3,7 @@ package PruebasCovic;
 import Pacientes.Paciente;
 
 final class TecnicaPCR implements PruebaCovic19{
+	
 	private Paciente paciente;
 	
 	public TecnicaPCR(Paciente p){

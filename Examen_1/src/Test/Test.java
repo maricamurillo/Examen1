@@ -1,9 +1,13 @@
 package Test;
 
+import Hospitales.HospitalMexico;
+import Hospitales.HospitalNicoya;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		HospitalMexico hospitalMexico = new HospitalMexico(null);//composicion
+		HospitalNicoya hospitalNicoya = new HospitalNicoya();//composicion
 
 	}
 
